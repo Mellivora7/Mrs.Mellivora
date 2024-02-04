@@ -1,0 +1,150 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+<h1 id="title">Mellivora Empire Registration Form</h1>
+<p id="description"> Please fill out the form with accurate information. Failure to comply can lead to "termination".</p>
+<form id="survey-form">
+  <fieldset>
+      <label id="name-label" for="name">Full   name<input 
+      id="name" 
+  type="text"
+  placeholder="First Middle Last" 
+  required></input>
+  <label id="email-label"   for="email">Email<input 
+  id="email" 
+  type="email" 
+  Placeholder="email@domain.com"
+  required></input>
+    <label id="number-label" for="number">Age<input 
+id="number" 
+type="number"
+min="0"
+max="116"
+placeholder="select age"
+required>
+    </input>
+    <legend>Can you fight?</legend>
+   <label for="fighters">Yes <input id="fighters" name="can-you-fight" class="inline" type="radio" value="0" checked/>
+    <label for="weaklings">no <input id="weaklings" type="radio" name="can-you-fight"class="inline" value="2"/></label>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown"> What role will you serve?
+        <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Enforcer</option>
+        <option value="2">Builder</option>
+        <option value="3">Caretaker</option>
+        <option value="4">Concubine</option>
+        <option value="5">Wife(If you are not Mrs.Mellivora you will instantly be terminated!</option>
+   </select>
+   <legend>What skills do you have?(check all that apply)</legend>
+      <label for="skills">Shooting 
+        <input id="skills" type="checkbox" class="inline" value="7"></label>
+        <label for="skills">Melee 
+          <input id="skills" type="checkbox" class="inline" value="8"></label>
+        <label for="skills">Farming 
+          <input id="skills" class="inline" value="9" type="checkbox"></label>
+        <label for="skills">Cooking 
+          <input id="skills" class="inline" value="10" type="checkbox"></label>
+        <label for="comments">Comments:<textarea id="comments" name="comments" rows="4" cols="30" placeholder="If you have any skills that could be valuable to the empire please list them here..."></textarea></label>
+        <input type="submit" id="submit" value="submit"></input>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image:url("https://scontent.ffar1-2.fna.fbcdn.net/v/t1.18169-9/250996_258281494277559_964811169_n.jpg?_nc_cat=111&cb=99be929b-8d691acd&ccb=1-7&_nc_sid=c2f564&_nc_ohc=oKyCDupdycEAX-OMbwt&_nc_oc=AQnc10-9KToZctIpQ7KtY0mmQYYe2bqM7QpHvKwEfLN1GEsNWb6lr8D0XElXBaEPEvU&_nc_ht=scontent.ffar1-2.fna&oh=00_AfDz97mV1QHsuuB5w1inTMoMy7AyH2G9wmDciI-cE8Bt3w&oe=65E6462E");
+  color: rgb(200,200,150);
+text-shadow: 0 0 3px rgb(60,0,0), 0 0 1px rgb(60,0,0), 0 0 1px rgb(60,0,0), 0 0 1px rgb(60,0,0);
+  font-family: Tahoma;
+  font-size: 24px;
+}
+
+img{
+  opacity:0.5;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid rgb(150,0,0);
+  color:rgb(200,200,150);
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: rgb(200,200,150);
+  border: 3px solid rgb(150,0,0);
+  color: rgb(0,0,);
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: (0,0,55);
+  border-color: rgb(175,50,50);
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline{
+  display: inline; 
+}
+
+** end of undefined **
+
