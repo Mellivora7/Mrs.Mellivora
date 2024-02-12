@@ -8,10 +8,6 @@ text-shadow: 0 0 3px rgb(60,0,0), 0 0 1px rgb(60,0,0), 0 0 1px rgb(60,0,0), 0 0 
   font-size: 24px;
 }
 
-img{
-  opacity:0.5;
-}
-
 h1, p {
   margin: 1em auto;
   text-align: center;
