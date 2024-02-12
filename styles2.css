@@ -6,10 +6,6 @@ body {
 
 }
 
-img[name="boxinggif screenshot"]{
-  height=100%;
-  width=100%;}
-
 iframe{
   margin: 0 auto;
   display: block;
@@ -39,8 +35,8 @@ h2 {
 }
 img {
   width: 100%;
-  max-width: 350px;
-  height: 300px;
+  max-width: 500px;
+  height: 400px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
