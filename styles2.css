@@ -3,12 +3,9 @@ body {
   height: 100vh;
   margin: 0;
   background-image: url("Hearts.jpg"); 
-text-shadow: 0 0 3px rgb(60,0,0), 0 0 1px rgb(60,0,0), 0 0 1px rgb(60,0,0), 0 0 1px rgb(60,0,0);
-  font-family: Tahoma;
-  font-size: 24px;
 }
 
 h1, p {
-  margin: 1em auto;
+  margin: 1 auto;
   text-align: center;
 }
