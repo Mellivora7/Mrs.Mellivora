@@ -6,6 +6,10 @@ body {
 
 }
 
+img[name="boxinggif]{
+  height=100%;
+  width=100%;}
+
 iframe{
   margin: 0 auto;
   display: block;
