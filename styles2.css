@@ -6,6 +6,11 @@ body {
 
 }
 
+iframe{
+  margin: 0 auto;
+  display: block;
+}
+
 h1{
     color: rgb(10,10,150);
 }
@@ -23,6 +28,21 @@ p{
   font-style: Bold;
 }
 
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(10,10,150);
+}
+img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 h2 {
   text-align: center;
   font-size: 50px;
